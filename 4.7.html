@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi App</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-xxzQGERXS00kB6KMXQQFME5vzmhAxMFO8j5qC5g9T5hnO9IMX+OrEWPhen+0fkc/" crossorigin="anonymous">
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+      #title {
+        color: white;
+        font-size: 3.5rem;
+      }
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+      }
+      #app-name {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 2.5rem;
+        vertical-align: middle;
+      }
+      .navbar-nav .nav-link {
+        padding: 0 18px;
+        font-size: 1.2rem;
+      }
+      .btn-margin {
+        margin: 5% 3% 5% 0;
+      }
+      .rotate-img {
+        transform: rotate(25deg);
+      }
+      #features {
+        padding: 50px 0;
+        background-color: #f8f9fa;
+        text-align: center;
+      }
+      #features h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      #features p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+      }
+      .fa {
+        margin-right: 5px;
+        color: #007bff;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Mi App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="precios.html">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="descarga.html">Descarga</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 id="title" class="text-center mt-3 mb-3">Eslogan de la App</h1>
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary mx-1 btn-margin">Descargar App</button>
+                    <button type="button" class="btn btn-secondary mx-1 btn-margin">Más información</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="app.jpg" alt="Imagen App" class="img-fluid rotate-img">
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a id="app-name" class="navbar-brand" href="#">Nombre App</a>
+        </div>
+    </nav>
+
+    <section id="features">
+      <h3>The northman  <i class="fas fa-bullseye"></i></h3>
+
+        <p>La peli que vi ayer.</p>
+        <h3> Esta chula<i class="fas fa-check-circle"></i></h3>
+        <p></p>Va de vikingos .</p>
+        <h3> Muy recommendables <i class="fas fa-heart"></i></h3>
+        <p>先生、これは何よりも認められるべきことだと思います。</p>
+    </section>
+</body>
+</html>
+
