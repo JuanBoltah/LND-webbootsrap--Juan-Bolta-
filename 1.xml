@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias de Aviones Comerciales</title>
+        <link>http://www.ejemplo.com/aviones-comerciales</link>
+        <description>Las últimas noticias sobre aviones comerciales.</description>
+        <language>es-es</language>
+        
+        <item>
+            <title>Boeing anuncia nuevo modelo de avión de pasajeros</title>
+            <link>http://www.ejemplo.com/articulo1</link>
+            <description>Boeing ha revelado su último modelo de avión de pasajeros, que promete una mayor eficiencia y comodidad para los viajeros.</description>
+            <pubDate>Fri, 17 Mar 2024 08:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>Airbus entrega el primer A380 renovado a una aerolínea</title>
+            <link>http://www.ejemplo.com/articulo2</link>
+            <description>Airbus ha entregado el primer A380 renovado a una aerolínea, con mejoras en eficiencia de combustible y experiencia del pasajero.</description>
+            <pubDate>Thu, 16 Mar 2024 10:00:00 GMT</pubDate>
+        </item>
+        
+        
+        
+    </channel>
+</rss>

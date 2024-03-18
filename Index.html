@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP GUN</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83b69985d3.js" crossorigin="anonymous"></script>
+    <style>
+        .navbar {
+            background-color: transparent !important; 
+        }
+
+        .navbar-nav .nav-item a {
+            display: inline-block; 
+            padding: 5px;
+        }
+
+        body {
+            background-image: url(fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: black;
+        }  
+        .footer-transparent {
+            color: black;
+        }
+        .opaque-box {
+          background-color: rgba(255, 255, 255, 0.5); 
+            border: 1px solid black; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: stretch; 
+        }
+.up {
+    height: 5.5rem;
+    width:8.5rem;
+}
+.col-md-8 {
+color: black;
+}
+.carousel-inner{
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="Index.html">
+                
+                <img class="up" src="top gun.png" alt="Logotipo de la marca" height="30">
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="Index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Catalogo.html"><i class="fa-solid fa-plane"></i> Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Manuel.html"><i class="fa-solid fa-download"></i> Manual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html"><i class="fa-solid fa-phone"></i> Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".html"><i class="fa-solid fa-download"></i> rss</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="opaque-box">
+        <h1>¿Qué es TOP GUN?</h1>
+        <p>La Escuela de Armas de la Marina de los Estados Unidos, conocida como Top Gun, es una institución de élite donde los pilotos de combate de la Marina reciben entrenamiento avanzado en tácticas de combate aéreo.</p>
+        <img src="foto1.png" alt="Top Gun - Escuela de Vuelo">
+        <p>La escuela Top Gun está ubicada en la Base Naval de Miramar en San Diego, California. Fue establecida en 1969 para mejorar las habilidades y tácticas de los pilotos de caza de la Marina, especialmente en el contexto de la Guerra de Vietnam.</p>
+        <img src="foto2.jpg" alt="Top Gun - Escuela de Vuelo">
+        <p>El programa de entrenamiento en Top Gun incluye simulaciones de combate aéreo, entrenamiento en el aire y análisis detallado de misiones y tácticas. Su objetivo es preparar a los pilotos para enfrentarse a cualquier situación de combate aéreo con eficacia y confianza.</p>
+        <p>Únete a nuestras filas para convertirte en el nuevo IceMan o en el Nuevo Maverick</p>
+        <img src="paz.jpg" alt="Top Gun - Escuela de Vuelo">
+    </div>
+
+    <footer class="bg-transparent text-white py-5 footer-transparent"style="color: black;">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide bg-transparent" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="d-block w-100 img-fluid" src="ice.webp" alt="First slide">
+                            </div>
+                            <div class="col-md-8">
+                                <h3> Tom Kazansky</h3>
+                                <p>Almirante de la Flota del Pacifico.Nombrea en clave IceMan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="d-block w-100 img-fluid" src="mav.jpg" alt="Second slide">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Pete Mitchell</h3>
+                                <p>Instructor de vuelo.Nombre en clave Maverick.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="d-block w-100 img-fluid" src="hag.jpg" alt="Third slide">
+                            </div>
+                            <div class="col-md-8">
+                                <h3> Jake Seresin</h3>
+                                <p>Teniente.Nombre en clave Hagman.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

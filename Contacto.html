@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP GUN</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83b69985d3.js" crossorigin="anonymous"></script>
+    <style>
+        .navbar {
+            background-color: transparent !important; 
+        }
+
+        .navbar-nav .nav-item a {
+            display: inline-block; 
+            padding: 5px;
+        }
+
+        body {
+            background-image: url(fondo4.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            padding: 20px;
+            background-color: transparent
+        }
+        
+        .box {
+            flex: 0 0 45%;
+            padding: 10px;
+        }
+        
+        .box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+        
+        .box-text {
+            padding: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .contacto .formulario {
+            flex: 1;
+            margin-left: 30px;
+        }
+        @media (max-width: 768px) {
+            .contacto {
+                flex-direction: column;
+                align-items: center;
+            }
+            .contacto .formulario {
+                margin-top: 20px;
+                margin-left: 0;
+            }
+        }
+        .up {
+         height: 5.5rem;
+         width:8.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="Inicio.html">
+                <img class="up" src="top gun.png" alt="Logotipo de la marca" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Inicio.html"><i class="fa-solid fa-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Catalogo.html"><i class="fa-solid fa-plane"></i> Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Manual.html"><i class="fa-solid fa-download"></i> Manual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html"><i class="fa-solid fa-phone"></i> Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <div class="container">
+            <div class="contacto">
+                <div class="formulario">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="text-center">Formulario de Contacto</h2>
+                        </div>
+                        <div class="card-body">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                </div>
+    
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+    
+                                <div class="form-group">
+                                    <label for="mensaje">Mensaje:</label>
+                                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                                </div>
+    
+                                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
